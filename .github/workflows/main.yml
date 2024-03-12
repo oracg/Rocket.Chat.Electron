@@ -43,3 +43,10 @@ jobs:
           NODE_ENV: production
           BUGSNAG_API_KEY: ${{ secrets.BUGSNAG_API_KEY }}
           SNAPCRAFT_STORE_CREDENTIALS: ${{ secrets.SNAPCRAFT_STORE_CREDENTIALS }}
+          
+      - name: Upload File
+        uses: actions/upload-artifact@v3
+        with:
+          name: windows
+          path: dist/*exe
+

@@ -151,16 +151,4 @@
     "yarn": "4.0.2"
   },
   "packageManager": "yarn@4.0.2",
-  {
-  "build": {
-    "appId": "cn.longyes",
-    "copyright":"Cy",
-    "productName":"app.exe",// 软件名
-    "icon": "logo.ico",// 图标
-    "win": {
-      "target": [
-        "portable"
-      ]
-    }
-  }}
 }
